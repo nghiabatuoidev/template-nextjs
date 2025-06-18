@@ -1,9 +1,9 @@
-import SkeletonCommon from "@/components/common/skeleton-common";
+import { DataTableDemo } from "@/components/admin/table/data-table";
 
 export default function Page() {
   return (
     <div>
-      <SkeletonCommon />
+      <DataTableDemo />
     </div>
   );
 }
